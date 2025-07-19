@@ -23,5 +23,5 @@ class Plugin:
 
     @router("/", methods=["GET"])
     def run(session, request: Request):
-        session["user_id"] = "bc523c62-6d38-49f1-9741-124886"
+        # session["user_id"] = "bc523c62-6d38-49f1-9741-124886"
         return

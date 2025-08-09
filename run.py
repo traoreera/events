@@ -1,6 +1,5 @@
-from fasthtml.common import Request
-
 import deps
+from fasthtml.common import Request
 
 PLUGIN_INFO = {
     "name": "Events",
